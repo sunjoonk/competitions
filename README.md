@@ -3,6 +3,7 @@
 이 프로젝트는 PyTorch Geometric 기반의 GNN(GINEConv), XGBoost, LightGBM을 활용하여 분자의 SMILES 표현으로부터 `Inhibition` 값을 예측하는 회귀 모델입니다.
 
 ## 📁 프로젝트 구조
+```
 .
 ├── configs/ # 실험 설정 (YAML)
 ├── data/ # 학습/예측 데이터 (git에 포함 X)
@@ -16,6 +17,7 @@
 │ └── utils/
 ├── requirements.txt
 └── README.md
+```
 
 ## 🚀 실행 방법
 
